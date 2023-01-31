@@ -1,0 +1,84 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input":["hello", "hi", "hey", "what's up","xup", "goodday" ],
+    "bot_response":"Hello!",
+    "required_words": []
+  },
+  {
+    "response_type": "goodbye",
+    "user_input":["see you", "bye", "goodbye", "talk to you later", "ttyl", "catch ya later", "I have to go now"],
+    "bot_response":"bye!",
+    "required_words": []
+  },
+  {
+    "response_type": "are",
+    "user_input": ["how are you ?", "hope you are good", "how far"],
+    "bot_response": "I am fine. Thank you",
+    "required_words": []
+  },
+  {
+    "response_type": "appreciation",
+    "user_input": ["alright", "okay", "good","nice", "kk", "ok", "fine", "wow"],
+    "bot_response": "okay",
+    "required_words": []
+  },
+  {
+    "response_type": "thanks",
+    "user_input":["thank you", "thanks", "thank you for your help", "thanks a lot"],
+    "bot_response":"You're welcome",
+    "required_words": ["thanks"]
+  },
+
+  {
+    "response_type": "name",
+    "user_input":["what is your name ", "what is your name ?", "who are you ", "can you tell me your name ", "name"],
+    "bot_response":"I am Bob \nand I am the official enquiry bot of University of Gift (UNIG).\nFeel free to ask me any question regarding UNIG and \nI will answer to the best of my capabilities.",
+    "required_words": ["name"]
+  },
+  {
+    "response_type": "online",
+    "user_input":["is unig an online school"],
+    "bot_response":"University of Gift offers dual mode of studying.\nIt is both an online and offline school. Students who wish \nto study online with us are welcome and student who wish to \nphysically attend classes daily with us are also welcome. \nThe physical school is located at Wonderland, Niger Delta Continent.",
+    "required_words": ["online"]
+  },
+
+  {
+    "response_type": "location",
+    "user_input":["where is UNIG ", "where is University of Gift located at", "Where is University of Gift located at ?","is university of Gift located in ","is university of Gift in ","where", "location"],
+    "bot_response":"University of Gift is located in the Niger Delta Continent",
+    "required_words": ["where"]
+  },
+  {
+    "response_type": "fees",
+    "user_input":["How much is unig fees ?", "how much", "school fees", "is UNIG free ","how much does it cost to study at unig", "fees", "is unig expensive ?", "costs"],
+    "bot_response":"Tution is free at University of Gift \nbut you have to pay for books, \naccomodation and other side bills.",
+    "required_words": ["much"]
+  },
+
+  { "response_type": "mode of study",
+    "user_input": ["what is the mode of study at UNIG ?", "How will the students be taught ?"],
+    "bot_response": "University of Gift offers dual mode of studying.\nIt is both an online and offline school. Students who wish \nto study online with us are welcome and student who wish to \nphysically attend classes daily with us are also welcome. \nThe physical school is located at Wonderland, Niger Delta Continent.",
+    "required_words": ["mode"]
+  },
+  { "response_type": "study",
+    "user_input": ["is UNIG an online school"],
+    "bot_response": "University of Gift offers dual mode of studying.\nIt is both an online and offline school. Students who wish \nto study online with us are welcome and student who wish to \nphysically attend classes daily with us are also welcome. \nThe physical school is located at Wonderland, Niger Delta Continent.",
+    "required_words": ["online"]
+  },
+
+  {
+    "response_type": "about",
+    "user_input": ["what is unig","is UNIG a private school ?", "is UNIG a public school ?", "tell me about university of Gift"],
+    "bot_response": "University of Gift (UNIG) is a federal higher institution owned by the Government of Gift. It was founded in 2023 by Jeremiah Nyaknno Gift. It is a fictional institution created solely for an AI project.It is located in Wonderland though also offers online education and is well known for her free tution.",
+    "required_words": ["about"]
+  },
+
+  {
+    "response_type": "courses",
+    "user_input": ["How many courses does UNIG offer ?", "does UNIG offer ", "courses"],
+    "bot_response": "UNIG offers 141 courses in total. Here's a list of all our course \nwww.unig/courses.com",
+    "required_words": ["courses"]
+  }
+
+]

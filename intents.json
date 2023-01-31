@@ -1,0 +1,48 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello", "hey", "hi", "what\\'s up ?", "xup", "good morning", "good day", "good afternoon", "good evening", "how far",
+    "yo", "wassup", "sup"],
+  "responses": ["Hello!", "Hey!", "How can I help you ?"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["see ya", "goodbye", "bye", "talk to you later", "ttyl", "catch ya later", "I have to go now"],
+  "responses": ["bye!","goodbye"]},
+
+  {"tag": "name",
+  "patterns": ["what is your name ?", "what\\'s your name ?", "who are you ?", "can you tell me your name ?", "name"],
+  "responses": ["I\\'m Bob and I\\'m the official enquiry bot of University of Gift (UNIG).\\nFeel free to ask me any questions regarding UNIG and I\\'ll answer to the best of my capabilities.",
+    "My name is Bob I\\'m the official enquiry bot of University of Gift (UNIG).\\nFeel free to ask me any questions regarding UNIG."]}
+
+
+  {"tag": "location",
+  "patterns": ["Where is UNIG ?", "Where is University of Gift located at ?","is university of Gift located in ","is university of Gift in ","where", "location"],
+  "responses": ["University of Gift is located in the beautiful city of Wonderland."]},
+
+  {"tag": "fees",
+  "patterns": ["How much is UNIG fees ?", "how much", "school fees", "is UNIG free ?", "how much does it cost to study at UNIG", "fees", "is UNIG free ?", "costs"],
+  "responses": ["Tution is free at University of Gift but you have to pay for books, accomodation and other side bills."]},
+
+  {"tag": "requirements",
+  "patterns": ["what are the requirements for gaining admission into UNIG","what are the requirements for studying in UNIG ?","how to gain admission into U NIG ?", "how to apply for a programme atUNIG ?", "admission requirements", "admission"],
+  "responses": ["The requirements of gaining admission into UNIG depends on the type of programme you wish to pursue at UNIG."
+    "For an undergraduate degree, you need at least 5 O\'level passes in WAEC OR NECO.You don't need to write Jamb to gain admission into any of our Undergraduates programme.\nFor a masters programme you need at least an undergraduate degree including transcripts from your previous college."
+    "\nFor a Doctorate degree you need at least a Masters degree as well 3 letters of recommendation from your previous university."]},
+
+  {"tag": "mode of study",
+  "patterns": ["what is the mode of study at UNIG ?", "is UNIG an online school", "How will the students be taught ?"],
+  "responses": ["University of Gift offers dual mode of studying. It is both an online and offline school. Students who wish to study online with us are welcome and student who wish to physically attend classes daily with us are also welcome. The physical school is located at Wonderlamd."]},
+
+  {"tag": "University of Gift",
+  "patterns": ["what is UNIG ?","is UNIG a private school ?"],
+  "responses": ["University of Gift (UNIG) is a federal higher institution owned by the Government of Gift. It was founded in 2023 by Jeremiah Nyaknno Gift. It is a fictional institution created solely for an AI project.It is located in Wonderland though also offers online education and is well known for her free tution."]},
+
+  {"tag": "courses",
+  "patterns": ["How many courses does UNIG offer ?", "does UNIG offer ", "courses"],
+  "responses": ["UNIG offers 141 courses in total. Here's a list of all our course"]}
+
+  {"tag": "courses",
+  "patterns": ["How many courses does UNIG offer ?", "does UNIG offer ", "courses"],
+  "responses": ["UNIG offers 141 courses in total. Here's a list of all our course"]}
+
+]}
